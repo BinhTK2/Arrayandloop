@@ -18,7 +18,7 @@ console.log(caculatesShopingBudget(listProduction));
 
 
 function snail(array) {
-    let result = [];
+    const result = [];
     let left = 0;
     let right = array[0].length;
     let top = 0;
@@ -43,7 +43,7 @@ function snail(array) {
     }
     return result;
 }
-array = [[1, 2, 3], 
+const array = [[1, 2, 3], 
         [4, 5, 6], 
         [7, 8, 9]];
 console.log(snail(array));

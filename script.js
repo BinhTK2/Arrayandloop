@@ -3,8 +3,8 @@
 function caculatesShopingBudget(listProduction) {
     let sum = 0;
     for (let i = 0; i < listProduction.length; i++) {
-        let unit = listProduction[i][0];
-        let price = listProduction[i][1];
+        const unit = listProduction[i][0];
+        const price = listProduction[i][1];
         sum += unit * price;
     }
     
